@@ -84,7 +84,7 @@ if __name__ == '__main__':
         password=os.getenv('PLUGGTO_API_SECRET'),
         grant_type = 'password'    
     )
-    token_plugg = '3f5fa358b13e4a638d97991f6c6a0f13ced80930'
+    token_plugg = ''
     token = pluggto.get_token_by_password()
     #print(token)
     # refresh_token = pluggto.get_refresh_token(token)
